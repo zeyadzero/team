@@ -342,17 +342,6 @@ h6 {
   transform: translateX(-50%);
 }
 
-@media (max-width: 865px) {
-  #header {
-    padding-bottom: 2px;
-    }
-}
-@media (max-width: 861px) {
-  #header {
-    padding-bottom: 1px;
-    }
-}
-
 #header.header-scrolled {
   top: 0;
   background: rgba(0, 0, 0, 0.85);
@@ -455,15 +444,6 @@ h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
 
 
 
@@ -480,7 +460,6 @@ h6 {
 
 .about-box{
   position: relative;
-
 }
 .about-photo{
   overflow: hidden;
@@ -1180,8 +1159,6 @@ footer .contact-details ul li i {
 
 
 
-/*^========> Footer <========*/
-
 @media screen and (max-width: 1200px) {
   footer .container :is(.about, .contact-details) {
     width: calc(calc(100% - var(--gap)) / 2);
@@ -1207,3 +1184,113 @@ footer .contact-details ul li i {
     gap: 10px;
   }
 }
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.about-desc {
+  padding-left: 28px;
+}
+.about-desc h2 {
+  margin-bottom: 20px;
+}
+.about-desc > p {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}    
+.about-about ul li {
+  margin-bottom: 15px;
+} 
+.about-area {
+  padding: 80px 0;
+}    
+.card-area {
+  padding: 80px 0;
+}
+.contact-area {
+  padding: 80px 0;
+}   
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.main-menu ul.navbar-nav li {
+  padding: 0 8px;
+}   
+.about-photo {
+  -webkit-transform: translateY(0px) translateX(0px);
+  transform: translateY(0px) translateX(0px);
+}
+.about-desc {
+  padding-left: 0;
+} 
+.about-about ul li {
+  margin-bottom: 16px;
+}   
+.about-desc h2 {
+  margin-bottom: 15px;
+}   
+.about-desc > p {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}   
+.about-area {
+  padding: 70px 0 70px;
+}
+.about-about ul li {
+  font-size: 14px;
+}
+.card-area {
+  padding: 70px 0;
+}      
+.contact-area {
+  padding: 70px 0;
+}   
+    
+    
+    
+    
+}
+
+@media (max-width: 767px) {
+.container {width: 100%;}
+
+.about-desc {
+  padding-left: 0px;
+  margin-top: 30px;
+}
+.about-about ul li:nth-child(2n+1) {
+  width: 100%;
+}
+.about-photo {
+  -webkit-transform: translateY(0px) translateX(0px);
+  transform: translateY(0px) translateX(0px);
+}
+.about-area {
+  padding: 60px 0;
+} 
+.card-area {
+  padding: 60px 0;
+}
+.contact-area {
+  padding: 60px 0;
+}
+.card-img {
+  float: inherit;
+}
+.card-cont {
+  padding-left: 0;
+  margin-top: 30px;
+}    
+.card-item {
+  padding: 20px;
+}
+.footer-area {
+  padding: 35px 0;
+}
+.about-photo > img {
+  width: 100%;
+}
+    
+}
+
